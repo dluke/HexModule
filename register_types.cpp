@@ -1,13 +1,11 @@
 #include "register_types.h"
-#include "class_db.h"
+#include "core/class_db.h"
 #include "HexGrid.h"
 
-void register_hex_types() {
-
-        ClassDB::register_class<HexGrid>();
-      //  ObjectTypeDB::register_type<Hex>();
+void register_hexmodule_types() {
+    ClassDB::register_class<HexGrid>();
 }
 
-void unregister_hex_types() {
+void unregister_hexmodule_types() {
    //nothing to do here
 }
